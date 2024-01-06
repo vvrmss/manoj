@@ -1,0 +1,11 @@
+import datetime
+import pandas as pd
+from kiteconnect import KiteConnect,KiteTicker
+
+#Input instrument token
+nifty_ce= 10804994
+nifty_pe= 10806530
+
+nifty_ce_tick = pd.DataFrame(columns=['tradable','mode','instrument_token','last_price','last_traded_quantity','average_traded_price','volume_traded','total_buy_quantity','total_sell_quantity','high','low','open','close','change','last_trade_time','oi','oi_day_high','oi_day_low','exchange_timestamp','buy_quantity_1','buy_price_1','buy_orders_1','buy_quantity_2','buy_price_2','buy_orders_2','buy_quantity_3','buy_price_3','buy_orders_3','buy_quantity_4','buy_price_4','buy_orders_4','buy_quantity_5','buy_price_5','buy_orders_5','sell_quantity_1','sell_price_1','sell_orders_1','sell_quantity_2','sell_price_2','sell_orders_2','sell_quantity_3','sell_price_3','sell_orders_3','sell_quantity_4','sell_price_4','sell_orders_4','sell_quantity_5','sell_price_5','sell_orders_5'])
+nifty_pe_tick = pd.DataFrame(columns=['tradable','mode','instrument_token','last_price','last_traded_quantity','average_traded_price','volume_traded','total_buy_quantity','total_sell_quantity','high','low','open','close','change','last_trade_time','oi','oi_day_high','oi_day_low','exchange_timestamp','buy_quantity_1','buy_price_1','buy_orders_1','buy_quantity_2','buy_price_2','buy_orders_2','buy_quantity_3','buy_price_3','buy_orders_3','buy_quantity_4','buy_price_4','buy_orders_4','buy_quantity_5','buy_price_5','buy_orders_5','sell_quantity_1','sell_price_1','sell_orders_1','sell_quantity_2','sell_price_2','sell_orders_2','sell_quantity_3','sell_price_3','sell_orders_3','sell_quantity_4','sell_price_4','sell_orders_4','sell_quantity_5','sell_price_5','sell_orders_5'])
+
